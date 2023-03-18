@@ -1,0 +1,12 @@
+FROM python:3.11.2-slim-buster
+
+RUN pip install poetry==1.4.0
+
+COPY app/pyproject.toml app/poetry.lock  /
+RUN poetry install
+
+WORKDIR /app
+COPY app /app
+VOLUME /app
+
+CMD ["python", "main.py"]

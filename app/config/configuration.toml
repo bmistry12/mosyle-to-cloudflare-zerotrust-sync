@@ -1,0 +1,12 @@
+[cloudflare]
+api_token = ''
+account_id = ''
+team_list = ''
+
+[mosyle]
+api_token = ''
+email = ""
+password = ""
+
+[s3]
+reports_bucket = ''

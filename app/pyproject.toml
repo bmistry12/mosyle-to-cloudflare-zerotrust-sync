@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mosyle-cloudflare-sync"
+version = "0.1.0"
+description = "Sync serial numbers for Managed Macs from Mosyle to Cloudflare Zero Trust."
+authors = ["bmistry12"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytoml = "^0.1.21"
+requests = "^2.26.0"
+types-requests = "^2.25.11"
+boto3 = "^1.19.12"
+tenacity = "^8.0.1"
+retry = "^0.9.2"
+types-retry = "^0.9.5"
+poetry = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.14"]
+build-backend = "poetry.masonry.api"
