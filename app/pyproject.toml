@@ -7,7 +7,7 @@ authors = ["bmistry12"]
 [tool.poetry.dependencies]
 python = "^3.11"
 pytoml = "^0.1.21"
-requests = "^2.26.0"
+requests = "^2.31.0"
 types-requests = "^2.25.11"
 boto3 = "^1.19.12"
 tenacity = "^8.0.1"
