@@ -5,8 +5,8 @@ team_list = ''
 
 [mosyle]
 api_token = ''
-email = ""
-password = ""
+email = ''
+password = ''
 
 [s3]
 reports_bucket = ''
